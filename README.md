@@ -21,32 +21,50 @@ End the program and close the output image windows.
 ## Program:
 ```python
 # Developed By:
-# Register Number
+GOWRI M
+
+# Register Number:
+212220230019
+
 # To Read,display the image
-
-
+import cv2
+dog_image = cv2.imread('dog.jpg',1)
+cv2.imshow('Puppy',dog_image)
+cv2.waitKey(0)
+destroyAllWindows()
 
 
 # To write the image
-
-
+cv2.imwrite('new1.jpg',dog_image)
 
 
 
 # Find the shape of the Image
-
+import cv2
+dog_image = cv2.imread('dog.jpg',1)
+print(dog_image.shape)
 
 
 
 # To access rows and columns
-
-
+import random
+for i in range(100):
+    for j in range(dog_image.shape[1]):
+        dog_image[i][j] = [random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow('Dog',dog_image)
+cv2.waitKey(0)
+destroyAllWindows()
 
 
 
 # To cut and paste portion of image
-
-
+import cv2
+dog_image = cv2.imread('dog.jpg',-1)
+tag = dog_image[300:400,300:400]
+dog_image[50:150,50:150] = tag
+cv2.imshow('Dog',dog_image)
+cv2.waitKey(0)
+destroyAllWindows()
 
 
 
@@ -59,7 +77,7 @@ End the program and close the output image windows.
 ## Output:
 
 ### i) Read and display the image
-
+![output](./static/image/hi.png)
 <br>
 <br>
 
