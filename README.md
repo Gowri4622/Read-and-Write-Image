@@ -77,7 +77,7 @@ destroyAllWindows()
 ## Output:
 
 ### i) Read and display the image
-![output](./static/image/hi.png)
+![output](./static/img/hi.png)
 <br>
 <br>
 
