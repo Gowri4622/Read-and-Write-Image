@@ -77,25 +77,27 @@ destroyAllWindows()
 ## Output:
 
 ### i) Read and display the image
-![output](./static/img/hi.png)
+![output](./static/img/OUTP1.png)
 <br>
 <br>
 
 ### ii)Write the image
-
+![output](./static/img/OUTP2.png)
 <br>
 <br>
 
 ### iii)Shape of the Image
-
+![output](./static/img/OUTP3.png)
 <br>
 <br>
 
 ### iv)Access rows and columns
+![output](./static/img/OUTP4.png)
 <br>
 <br>
 
 ### v)Cut and paste portion of image
+![output](./static/img/OUTP5.png)
 <br>
 <br>
 
